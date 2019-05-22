@@ -3,6 +3,7 @@
 
 # include "../libft/libft.h"
 # include "math.h"
+# include <fcntl.h>
 
 typedef     struct s_summand
 {
@@ -20,7 +21,7 @@ typedef     struct s_calc
 }           t_calc;
 
 void        parse_input(char **argv, t_calc *info);
-
+void        create_file(t_calc *info);
 /*
 **  UTILS
 */

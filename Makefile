@@ -3,7 +3,8 @@ INCLUDES = -I ./includes
 LIBFT = libft/libft.a
 
 SRCS =	./srcs/main.c \
-		./srcs/parse_input.c
+		./srcs/parse_input.c \
+		./srcs/create_file.c
 
 UTILS = ./utils/str_to_low.c \
 		./utils/clear_spaces.c \

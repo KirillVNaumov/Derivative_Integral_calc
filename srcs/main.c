@@ -94,6 +94,7 @@ int         main(int argc, char **argv)
         optimize_summand(&info);
         create_derivative(&info);
         print_summand(&info);
+        create_file(&info);
     }
     else
         print_usage();
