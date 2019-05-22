@@ -6,7 +6,8 @@ SRCS =	./srcs/main.c \
 		./srcs/parse_input.c
 
 UTILS = ./utils/str_to_low.c \
-		./utils/clear_spaces.c 
+		./utils/clear_spaces.c \
+		./utils/struct_operations/t_summand.c 
 
 OBJ = $(SRCS:.c=.o) $(UTILS:.c=.o)
 
