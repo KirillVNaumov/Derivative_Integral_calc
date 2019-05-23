@@ -14,14 +14,13 @@ typedef     struct s_summand
 
 typedef     struct s_calc
 {
-    int     type;
-    char    *expresion;
     t_summand   *function;
     t_summand   *derivative;
 }           t_calc;
 
 void        parse_input(char **argv, t_calc *info);
 void        create_file(t_calc *info);
+
 /*
 **  UTILS
 */

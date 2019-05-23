@@ -88,7 +88,7 @@ int         main(int argc, char **argv)
 {
     t_calc  info;
  
-    if (argc == 3)
+    if (argc == 2)
     {
         parse_input(argv, &info);
         optimize_summand(&info);
